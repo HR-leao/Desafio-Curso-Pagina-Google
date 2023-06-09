@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+    
+}
+
+.container-cabecalho a{
+    color: #fff;
+    margin-right: 29px ;
+}
+
+.botao-menu a{
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+.gmail a, .imagens a{
+    text-decoration: none;
+
+}
+
+.gmail, .imagens {
+    margin-top: 5px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.fileira1 div{
+    border: 1px solid #fff;
+    background-color: #e2e2e3;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-radius: 50px;
+    height: 4px;
+    width: 4px;
+
+}
+
+.usuario-gmail img{
+    height: 28px;
+    margin-left: 23px;
+    margin-right: 10px;
+    background-color: #666666;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+
