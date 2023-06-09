@@ -7,24 +7,27 @@ body {
     margin: 0px;
     background-color: #202124;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
+
+/*INÍCIO DO CONTAINER CABEÇALHO*/
 
 .container-cabecalho{
     display: flex;
     justify-content: flex-end;
-    margin-top: 14px;
+    margin-top: 13px;
     
 }
 
 .container-cabecalho a{
     color: #fff;
-    margin-right: 29px ;
+    margin-right: 15px ;
 }
 
 .botao-menu a{
     display: flex;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-top: 9px;
+  
     
 }
 
@@ -34,30 +37,35 @@ body {
 }
 
 .gmail, .imagens {
-    margin-top: 5px;
-}
+    margin-top: 9px;
 
+}
+.imagens{
+    margin-right: 14px;
+}
 a:hover{
     text-decoration: underline;
 }
 .fileira1 div{
     border: 1px solid #fff;
-    background-color: #e2e2e3;
+    background-color: #666666;
     margin-right: 3px;
     margin-bottom: 3px;
     border-radius: 50px;
-    height: 4px;
-    width: 4px;
+    height: 3px;
+    width: 3px;
+    padding: 0.3px;
+    box-shadow: 0px 0px 1px 1px;
 
 }
 
 .usuario-gmail img{
-    height: 28px;
-    margin-left: 23px;
-    margin-right: 10px;
+    height: 32px;
+    margin-right: 20px;
+    margin-left: 7px;
     background-color: #666666;
     border-radius: 50px;
-    padding: 2px;
+    padding: 9px;
 }
-
+/*FIM DO CONTAINER CABEÇALHO*/
 
