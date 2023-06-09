@@ -69,3 +69,27 @@ a:hover{
 }
 /*FIM DO CONTAINER CABEÇALHO*/
 
+.logo-google {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+
+
+}
+
+.logo-google div {
+    margin: 0px;
+}
+
+.pesquisa {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-google img{
+    width: 272px;
+}
+
+
